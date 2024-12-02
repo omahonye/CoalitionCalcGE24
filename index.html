@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coalition Builder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Can you form a government from the GE2020 results?</h1>
+    <p>Build your own coalition by adding parties and independents until you reach the magic number, <strong>80</strong>.</p>
+
+    <div class="parties">
+      <div class="party" data-seats="35">
+        <button class="add-btn">+</button>
+        <span class="party-name">FG</span>
+        <span class="seats">35</span>
+        <button class="remove-btn">-</button>
+      </div>
+      <div class="party" data-seats="38">
+        <button class="add-btn">+</button>
+        <span class="party-name">FF</span>
+        <span class="seats">38</span>
+        <button class="remove-btn">-</button>
+      </div>
+      <div class="party" data-seats="37">
+        <button class="add-btn">+</button>
+        <span class="party-name">SF</span>
+        <span class="seats">37</span>
+        <button class="remove-btn">-</button>
+      </div>
+      <div class="party" data-seats="21" id="io-party">
+        <button class="add-btn">+</button>
+        <span class="party-name">IO</span>
+        <span class="seats">21</span>
+        <button class="remove-btn">-</button>
+      </div>
+      <div class="party" data-seats="6">
+        <button class="add-btn">+</button>
+        <span class="party-name">LAB</span>
+        <span class="seats">6</span>
+        <button class="remove-btn">-</button>
+      </div>
+      <div class="party" data-seats="5">
+        <button class="add-btn">+</button>
+        <span class="party-name">SPBP</span>
+        <span class="seats">5</span>
+        <button class="remove-btn">-</button>
+      </div>
+      <div class="party" data-seats="6">
+        <button class="add-btn">+</button>
+        <span class="party-name">SD</span>
+        <span class="seats">6</span>
+        <button class="remove-btn">-</button>
+      </div>
+      <div class="party" data-seats="12">
+        <button class="add-btn">+</button>
+        <span class="party-name">GP</span>
+        <span class="seats">12</span>
+        <button class="remove-btn">-</button>
+      </div>
+      <div class="party" data-seats="1">
+        <button class="add-btn">+</button>
+        <span class="party-name">AON</span>
+        <span class="seats">1</span>
+        <button class="remove-btn">-</button>
+      </div>
+      <div class="party" data-seats="4">
+        <button class="add-btn">+</button>
+        <span class="party-name">II</span>
+        <span class="seats">4</span>
+        <button class="remove-btn">-</button>
+      </div>
+    </div>
+
+    <div class="status">
+      <button id="restart-btn">Restart</button>
+      <p><strong>Your Coalition:</strong> <span id="coalition">None</span></p>
+      <p><strong>Total Seats:</strong> <span id="total-seats">0</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

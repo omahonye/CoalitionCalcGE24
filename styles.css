@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .parties {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+  }
+  
+  .party {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 45%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Party Colors */
+  .party:nth-child(1) {
+    background-color: #003399; /* FG (Blue) */
+    color: white;
+  }
+  
+  .party:nth-child(2) {
+    background-color: #66cc33; /* FF (Green) */
+    color: white;
+  }
+  
+  .party:nth-child(3) {
+    background-color: #008000; /* SF (Darker Green) */
+    color: white;
+  }
+  
+  .party:nth-child(4) {
+    background-color: #000; /* IO (Black) */
+    color: white;
+  }
+  
+  .party:nth-child(5) {
+    background-color: #cc0000; /* LAB (Red) */
+    color: white;
+  }
+  
+  .party:nth-child(6) {
+    background-color: #ff33cc; /* SPBP (Pinkish Purple) */
+    color: white;
+  }
+  
+  .party:nth-child(7) {
+    background-color: #800080; /* SD (Purple) */
+    color: white;
+  }
+  
+  .party:nth-child(8) {
+    background-color: #99cc33; /* GP (Lime Green) */
+    color: white;
+  }
+  
+  .party:nth-child(9) {
+    background-color: orange; /* AON */
+    color: white;
+  }
+  
+  .party:nth-child(10) {
+    background-color: pink; /* II */
+    color: black;
+  }
+  
+  /* Add Button */
+  .party .add-btn {
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .party .add-btn:hover {
+    background: lightgray;
+  }
+  
+  .status {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #restart-btn {
+    padding: 10px 20px;
+    background: #d9534f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #restart-btn:hover {
+    background: #c9302c;
+  }
+  
+  .party .remove-btn {
+    background: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .party .remove-btn:hover {
+    background: #c9302c;
+  }
+
+  
